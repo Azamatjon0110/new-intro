@@ -1,0 +1,181 @@
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+  url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+
+  background-image: url("../images/bg-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 77px 0;
+}
+
+.container{
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.intro-info{
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.info-main{
+  width: 525px;
+  margin-right: 45px;
+  color:#ffffff;
+}
+
+.info-title{
+  margin: 0;
+  margin-bottom: 11px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: -0.520833px;
+
+}
+
+.info-text{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.intro-labels{
+  width: 540px;
+}
+
+.intro-link{
+  display: block;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  padding: 17px 108px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.267857px;
+  background-color:  #5E54A4;
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.intro-form{
+  margin: 0;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+.form-input{
+  width: 460px;
+  margin: 0;
+  padding: 15px 0;
+  padding-left: 32px;
+  border: none;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+  background-image: url("../images/appeal.svg");
+  background-size: 24px 24px;
+  background-position: right 27px center;
+  background-repeat: no-repeat;
+  border: 1px solid #FF7979;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid+span{
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+.label-span{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 11px;
+  line-height: 16px;
+  color: #FF7979;
+  opacity: 0;
+  text-align: right;
+}
+
+
+.user-info-button{
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.button{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 20px 146px;
+  background-color: #38CC8B;
+  color:#FFFFFF;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555
+}
+
+.text-link{
+  text-decoration: none;
+  color:#f00;
+}
